@@ -1,0 +1,17 @@
+name: Zenback
+id: Zenback
+description: Insert Zenback tag to your blog
+version: 0.1
+blog_config_template:
+  code: $Zenback::Zenback::CMS::blog_config_tmpl
+settings:
+  zenback_key:
+    scope: blog
+tags:
+  function:
+    Zenback: $Zenback::Zenback::_hdlr_zenback_tag
+callbacks:
+  MT::App::CMS::template_param.cfg_plugin: $Zenback::Zenback::CMS::set_param
+  MT::App::CMS::template_source.cfg_plugin: $Zenback::Zenback::CMS::set_source
+  MT::App::CMS::template_output.cfg_plugin: $Zenback::Zenback::CMS::set_output
+l10n_class: Zenback::L10N

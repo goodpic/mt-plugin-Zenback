@@ -1,0 +1,47 @@
+# Zenback Plugin
+# Author: Jun Kaneko
+# Copyright 2010 Six Apart, Ltd.
+# License: licensed under the same terms as Perl itself
+
+
+OVERVIEW
+
+This plugin adds MT tags to display Zenback contents.
+http://zenback.jp/
+
+PREREQUISITES
+
+- Movable Type 5.0 or higher
+
+INSTALLATION
+
+  1. Unpack the Zenback package.
+  2. Copy the contents of Zenback/plugins into /path/to/mt/plugins/
+  3. Select "Tools > Plugins" menu in your blog.
+  4. Configure the plugin's settings.
+  5. Insert <$MTZenback$>  in the section
+     where you wish to display the Zenback contents.
+
+
+TEMPLATE CODE
+
+<$MTZenback$>
+
+CHANGES
+
+0.1  2010.Sep.9 Initial release.
+
+AUTHOR
+
+Jun Kaneko kaneko@gmail.com
+
+COPYRIGHT AND LICENSE
+
+Copyright (C) 2010 Six Apart, Ltd.
+
+This program is free software; you can redistribute it
+and/or modify it under the same terms as Perl 5.10.0. 
+
+This program is distributed in the hope that it will be
+useful, but without any warranty; without even the implied
+warranty of merchantability or fitness for a particular purpose.
