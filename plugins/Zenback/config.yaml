@@ -1,7 +1,7 @@
 name: Zenback
 id: Zenback
-description: Insert Zenback tag to your blog
-version: 0.1
+description: <MT_TRANS phrase="Add zenback to your Movable Type blog.">
+version: 0.2
 blog_config_template:
   code: $Zenback::Zenback::CMS::blog_config_tmpl
 settings:
@@ -12,6 +12,4 @@ tags:
     Zenback: $Zenback::Zenback::_hdlr_zenback_tag
 callbacks:
   MT::App::CMS::template_param.cfg_plugin: $Zenback::Zenback::CMS::set_param
-  MT::App::CMS::template_source.cfg_plugin: $Zenback::Zenback::CMS::set_source
-  MT::App::CMS::template_output.cfg_plugin: $Zenback::Zenback::CMS::set_output
 l10n_class: Zenback::L10N

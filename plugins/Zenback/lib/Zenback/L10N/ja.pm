@@ -5,7 +5,7 @@ use base 'Zenback::L10N';
 use vars qw( %Lexicon );
 
 our %Lexicon = (
-    'Color Schema' => '色合い',
+    'Add zenback to your Movable Type blog.' => 'ブログにzenbackを追加します。',
 );
 
 1;
