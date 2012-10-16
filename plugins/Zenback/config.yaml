@@ -1,7 +1,7 @@
 name: Zenback
 id: Zenback
 description: <MT_TRANS phrase="Add zenback to your Movable Type blog.">
-version: 0.2
+version: 0.3
 blog_config_template:
   code: $Zenback::Zenback::CMS::blog_config_tmpl
 settings:

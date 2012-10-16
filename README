@@ -29,12 +29,15 @@ TEMPLATE CODE
 
 CHANGES
 
+0.3  2012.Oct.17 Fixed a bug in the Dynamic Publishing.
+                 Respond to the latest specifications.
 0.2  2010.Sep.13 Support Dynamic Publishing.
 0.1  2010.Sep.9  Initial release.
 
 AUTHOR
 
-Jun Kaneko kaneko@gmail.com
+Jun Kaneko kaneko@gmail.com (0.1 - 0.2)
+Seiko Kuchida mail@webbingstudio.com (0.3)
 
 COPYRIGHT AND LICENSE
 
